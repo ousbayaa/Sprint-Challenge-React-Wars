@@ -26,13 +26,27 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React JS is a framework created by Facebook. The problems it tries to solve is development of large applications that changes over time.
+
+
 - [ ] What does it mean to _think_ in react?
+
+Designing the application using components and states.
+
 
 - [ ] Describe state.
 
+State is the current state of an application.
+
+
 - [ ] Describe props.
 
+A way to pass in data from one components to another.
+
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+Side effects are pices of code that are run when a state or prop changes. You sync them by adding the prop or state as a parameter in the useEffect function.
 
 ## Project Set Up
 
