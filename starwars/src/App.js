@@ -14,7 +14,7 @@ const App = () => {
   useEffect(() => {
       axios.get('https://swapi.co/api/people/')
       .then(res => {
-          setNasaData(res.data);
+          setCharacterData(res.data);
         console.log(res.data);
       })
     }, []);
