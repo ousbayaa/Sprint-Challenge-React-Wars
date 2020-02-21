@@ -8,7 +8,7 @@ const Character = props => {
     <div className="Character"> 
         <h3>Name: {props.name}</h3>
         <p>Gender: {props.gender}</p>
-        <p></p>
+        <p>Birth Year: {props.birth}</p>
     </div>
   );
 }
